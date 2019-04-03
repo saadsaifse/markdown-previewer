@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #585f5d;
+}
+
+.editor textarea, .previewer {
+    background-color: #7d8b86;
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #9b303085;
+    border-top: none;
+}
+
+.toolbar {
+  position: relative;
+  background-color: #a03434;
+  padding: 4px 4px 3px 3px;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #9e1b1b75;
+  font-family: Russo One;
+  font-size: 15px;
+}
+
+.toolbar i {
+  width: 25px;
+  color: black;
+  margin-left: 5px;
+}
+
+.toolbar .fa-arrows-alt,
+.toolbar .fa-compress {
+  position: absolute;
+  right: -5px;
+}
+
+.editor {
+  width: 600px;
+  margin: 18px auto;
+}
+
+.editor .toolbar {
+  width: 99%;
+}
+
+.editor textarea {
+  width: 99%;
+  min-height: 200px;
+  margin-bottom: -5px;
+  resize: vertical;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.previewer {
+  width: 800px;
+  margin: 20px auto;
+  min-height: 200px;
+  overflow-wrap: break-word;
+  padding-right: 20px;
+}
+
+.previewer .toolbar {
+  left: -1px;
+  width: 100%;
+  padding-right: 17px;
+}
+
+.previewer #preview {
+  margin-left: 5px;
+  width: 100%;
+}
+
+.maximized {
+  min-width: 96%;
+  min-height: 100vh;
+}
+
+.maximized textarea {
+  height: 95vh;
+  resize: none;
+}
+
+.hide {
+  display: none;
+}
